@@ -1,0 +1,18 @@
+kind: Component
+apiVersion: backstage.io/v1alpha1
+metadata:
+  name: UnifiedCICD
+  annotations:
+    harness.io/project-url: https://app.harness.io/ng/account/qQg-poUqSlqFl9CeAJVmzg/home/orgs/default/projects/TutorialPei/details
+    harness.io/cd-serviceId: UnifiedCICD
+    harness.io/services: |
+      UnifiedCICD: https://app.harness.io/ng/account/qQg-poUqSlqFl9CeAJVmzg/cd/orgs/default/projects/TutorialPei/services/UnifiedCICD
+  title: Unified-CI-CD
+  tags: []
+spec:
+  type: Service
+  lifecycle: Unknown
+  owner: Unknown
+  domain: default
+  system: TutorialPei
+
